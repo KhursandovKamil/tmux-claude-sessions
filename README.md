@@ -110,11 +110,11 @@ the bundled `scripts/claude-tmux-state.sh`. Merge this into your
 
 | Hook event         | Matcher             | Status    | Meaning                        |
 | ------------------ | ------------------- | --------- | ------------------------------ |
-| `UserPromptSubmit` | —                   | `working` | Claude started on your prompt  |
-| `Notification`     | `permission_prompt` | `waiting` | Asking permission              |
-| `PreToolUse`       | `AskUserQuestion`   | `waiting` | Asking you a question          |
-| `Stop`             | —                   | `idle`    | Finished, awaiting next prompt |
-| `SessionEnd`       | —                   | `clear`   | Removes the pane's status file |
+| `UserPromptSubmit` | —                   | 🔴 `working` | Claude started on your prompt  |
+| `Notification`     | `permission_prompt` | 🟡 `waiting` | Asking permission              |
+| `PreToolUse`       | `AskUserQuestion`   | 🟡 `waiting` | Asking you a question          |
+| `Stop`             | —                   | 🟢 `idle`    | Finished, awaiting next prompt |
+| `SessionEnd`       | —                   | ⚪ `clear`   | Removes the pane's status file |
 
 > If your `claude-tmux-state.sh` lives elsewhere (e.g. `~/.claude/scripts/`),
 > point the `command` paths there instead. Restart any running Claude sessions so
