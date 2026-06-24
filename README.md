@@ -2,7 +2,7 @@
 
 > Inspired by [craftzdog/tmux-claude-session-manager](https://github.com/craftzdog/tmux-claude-session-manager).
 
-[![screenshot](./screenshot.jpg)]
+![screenshot](./screenshot.jpg)
 
 A tiny tmux plugin that lists every terminal running [Claude Code](https://claude.com/claude-code)
 and lets you jump to one from a popup picker — anywhere in tmux.
