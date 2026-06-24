@@ -124,6 +124,10 @@ scripts/claude-tmux-state.sh    hook script that records per-pane status
 examples/claude-hooks.json      copy-paste hooks for ~/.claude/settings.json
 ```
 
+## Credits
+
+Inspired by [craftzdog/tmux-claude-session-manager](https://github.com/craftzdog/tmux-claude-session-manager).
+
 ## License
 
 MIT
