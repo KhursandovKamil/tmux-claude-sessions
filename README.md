@@ -10,8 +10,8 @@ and lets you jump to one from a popup picker — anywhere in tmux.
 │ claude ❯                                                    │
 │   ctrl-n/p move · enter jump · esc close                    │
 │ > ● working  my-session1  1:fish  ~/projects/.../project-1 │
-│   ◍ waiting  my-session2  2:fish  ~/projects/.../project-2 │
-│   ○ idle     dotfiles      3:fish       ~/dotfiles          │
+│   ● waiting  my-session2  2:fish  ~/projects/.../project-2 │
+│   ● idle     dotfiles      3:fish       ~/dotfiles          │
 ╰────────────────────────────────────────────────────────────╯
 ```
 
@@ -20,8 +20,9 @@ and lets you jump to one from a popup picker — anywhere in tmux.
 - **`Enter`** jumps your client to the selected pane (session + window + pane).
 - **`Esc`** closes the popup.
 
-Each row shows a live status: **● working** (yellow), **◍ waiting** for your input
-(red), **○ idle** (grey).
+Each row shows a live status, traffic-light style: **● working** (red — busy,
+leave it), **● waiting** for your input (yellow), **● idle** (green — turn
+finished, your move).
 
 ## How it works
 

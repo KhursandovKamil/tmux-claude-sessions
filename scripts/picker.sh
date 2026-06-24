@@ -16,9 +16,9 @@ STATE_DIR="${HOME}/.cache/claude-tmux-sessions"
 glyph_for() {
   # ANSI-colored status glyph + padded label
   case "$1" in
-    working) printf '\033[33m●\033[0m working' ;;  # yellow
-    waiting) printf '\033[31m◍\033[0m waiting' ;;  # red
-    *)       printf '\033[90m○\033[0m idle   ' ;;  # grey
+    working) printf '\033[31m●\033[0m working' ;;  # red
+    waiting) printf '\033[33m●\033[0m waiting' ;;  # yellow
+    *)       printf '\033[32m●\033[0m idle   ' ;;  # green
   esac
 }
 
