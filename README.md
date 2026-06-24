@@ -1,5 +1,7 @@
 # tmux-claude-sessions
 
+> Inspired by [craftzdog/tmux-claude-session-manager](https://github.com/craftzdog/tmux-claude-session-manager).
+
 A tiny tmux plugin that lists every terminal running [Claude Code](https://claude.com/claude-code)
 and lets you jump to one from a popup picker — anywhere in tmux.
 
@@ -123,10 +125,6 @@ scripts/picker.sh               lists Claude panes, runs fzf, jumps
 scripts/claude-tmux-state.sh    hook script that records per-pane status
 examples/claude-hooks.json      copy-paste hooks for ~/.claude/settings.json
 ```
-
-## Credits
-
-Inspired by [craftzdog/tmux-claude-session-manager](https://github.com/craftzdog/tmux-claude-session-manager).
 
 ## License
 
