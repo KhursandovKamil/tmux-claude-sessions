@@ -9,8 +9,8 @@ and lets you jump to one from a popup picker — anywhere in tmux.
 ╭─ Claude Sessions ──────────────────────────────────────────╮
 │ claude ❯                                                    │
 │   ctrl-n/p move · enter jump · esc close                    │
-│ > ● working  dashboard-v3  1:DSAT-3808  ~/projects/.../3808 │
-│   ◍ waiting  dashboard-v3  2:DSAT-3812  ~/projects/.../3812 │
+│ > ● working  my-session1  1:fish  ~/projects/.../project-1 │
+│   ◍ waiting  my-session2  2:fish  ~/projects/.../project-2 │
 │   ○ idle     dotfiles      3:fish       ~/dotfiles          │
 ╰────────────────────────────────────────────────────────────╯
 ```
