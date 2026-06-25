@@ -30,9 +30,7 @@ finished, your move).
 
 - **Listing** is by process tree, not config: a pane is listed only when `claude`
   is the pane's own program (the pane shell itself, or a *direct* child of it).
-  Claude buried inside another full-screen app — e.g. an nvim terminal — is *not*
-  listed, since that pane's real program is nvim. No registration is needed for a
-  pane to appear; the picker always reflects reality.
+  No registration is needed for a pane to appear; the picker always reflects reality.
 - **Status** (working / waiting / idle) is an optional overlay written by Claude
   Code hooks into `~/.cache/claude-tmux-sessions/<pane_id>`, keyed by the
   `$TMUX_PANE` of the Claude process. Without the hooks, sessions still list —
